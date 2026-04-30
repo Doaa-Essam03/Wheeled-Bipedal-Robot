@@ -24,9 +24,8 @@ The project is divided into four main engineering pillars:
 To design the LQR controller, the system was linearized around the upright equilibrium point ($\theta = 0$).
 
 **State Vector:**
-$$
-x = \begin{bmatrix} \theta & \dot{\theta} & X & \dot{X} \end{bmatrix}^T
-$$
+
+$$x = \begin{bmatrix} \theta & \dot{\theta} & X & \dot{X} \end{bmatrix}^T$$
 
 Where $\theta$ is the pitch angle and $v$ is the linear displacement. 
 
