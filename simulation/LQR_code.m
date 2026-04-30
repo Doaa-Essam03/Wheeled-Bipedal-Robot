@@ -1,7 +1,7 @@
 % --- Physical Constants ---
 
 m = 0.1  ;  %  wheel mass
-M = 2.5  ;  %  Body Mass
+M = 0.9  ;  %  Body Mass
 r = 0.05 ;  %  wheel radius
 L = 0.15 ;  %  length to CoM 
 Jz = 0.03 ; %  body inertia 
