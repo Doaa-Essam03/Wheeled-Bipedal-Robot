@@ -1,0 +1,49 @@
+# --- SolidWorks ---
+# Temporary "owner" files created when a part is open
+~$*.sldprt
+~$*.sldasm
+~$*.slddrw
+~$*.sld
+~$*.SLDPRT
+~$*.SLDASM
+~$*.SLDDRW
+~$*.SLD
+*~
+
+# Backups, logs, and auto-recovery
+*.bak
+*.swbak
+*.swp
+*.sldbak
+*.err
+*.log
+
+# Simulation results and temporary folders
+/simulation_results/
+Temp/
+
+# --- MATLAB & Simulink ---
+*.asv       # Auto-save files
+*.slxc      # Simulink cache files
+*.mex* # Compiled MEX files
+slprj/      # Simulink project folders (very important to ignore)
+catdump.log
+diag.txt
+
+# --- IDEs (VS Code, CLion/PyCharm) ---
+.vscode/
+.idea/
+
+# --- Build Outputs & Hardware ---
+build/
+bin/
+*.o
+*.exe
+libraries/  # Local copies of Arduino/ESP32 libraries
+
+# --- Secrets & Local Config ---
+local_config.h  # Private WiFi/Credentials file
+
+# --- OS Trash ---
+.DS_Store
+Thumbs.db
